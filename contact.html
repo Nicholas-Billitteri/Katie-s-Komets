@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Katies Komets</title>
+  </head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <body class="background">
+    <nav class="navbar">
+      <div id="trapezoid">
+        <div class="goup">
+          <a class="sub-home" href="index.html">Home</a>
+          <a href="index.html" class="expandHome">Home</a>
+          <div class="subnav">
+            <button
+              onclick="window.location.href='/team.html'"
+              class="subnavbtn"
+            >
+              Team<i class="fa fa-caret-down"></i>
+            </button>
+            <div class="subnav-content"></div>
+          </div>
+
+          <div class="subnav">
+            <button
+              onclick="window.location.href='/schedule.html'"
+              class="subnavbtn"
+            >
+              Schedule<i class="fa fa-caret-down"></i>
+            </button>
+            <div class="subnav-content"></div>
+          </div>
+
+          <div class="subnav">
+            <button
+              onclick="window.location.href='/media.html'"
+              class="subnavbtn"
+            >
+              Media<i class="fa fa-caret-down"></i>
+            </button>
+            <div class="subnav-content"></div>
+          </div>
+
+          <div class="subnav">
+            <button
+              onclick="window.location.href='/contact.html'"
+              class="subnavbtn"
+            >
+              Contact<i class="fa fa-caret-down"></i>
+            </button>
+            <div class="subnav-content"></div>
+          </div>
+          <div class="subnav">
+            <button
+              onclick="window.location.href='/sponsors.html'"
+              class="subnavbtn"
+            >
+              Sponsors<i class="fa fa-caret-down"></i>
+            </button>
+            <div class="subnav-content"></div>
+          </div>
+          <div class="subnav">
+            <button
+              onclick="window.location.href='/NWBA.html'"
+              class="subnavbtn"
+            >
+              NWBA<i class="fa fa-caret-down"></i>
+            </button>
+            <div class="subnav-content"></div>
+          </div>
+          <div class="subnav">
+            <button
+              onclick="window.location.href='/CAF.html'"
+              class="subnavbtn"
+            >
+              CAF<i class="fa fa-caret-down"></i>
+            </button>
+            <div class="subnav-content"></div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--https://codepen.io/pec-man/pen/bGbeXqZ navbar creds-->
+
+    <!-- Intro header -->
+    <div class="container my-5">
+      <h1 class="display-1 descriptitle mt-1">Contact</h1>
+      <p class="bigger subhead">
+        Shoot Us a Message!
+      </p>
+    </div>
+
+    <div class="container">
+      <h3 class="subhead centere">
+        Katie's Komets is always looking for new players!
+      </h3>
+      <h3 class="subhead">
+        You can also contact us at Team Representative or 267-688-7230
+      </h3>
+      <h3 class="subhead">
+        Practices for Katie's Komets are at the Carousel House on Saturday
+        mornings from the fall until the spring.
+      </h3>
+      <h3 class="subhead">Carousel House</h3>
+      <h3 class="subhead">4300 Avenue of the Republic</h3>
+      <h3 class="subhead">Philadelphia, PA 19131</h3>
+      <h3 class="subhead">215-685-0160</h3>
+      <div class="row">
+        <!--form field start-->
+        <div
+          class="card card-nav myh2 container container-fluid desc mt-5 mb-5 darkenedred"
+        >
+          <div class="card-body">
+            <main role="main">
+              <div class="contentWrapper">
+                <form
+                  action=""
+                  method="post"
+                  name="signUpForm"
+                  id="signUpForm"
+                  class="contacttext"
+                >
+                  <fieldset id="signUp">
+                    <legend class="contacttextsmall">
+                      Give Us Your Information To Contact Us
+                    </legend>
+
+                    <label for="nameField">Name:</label>
+                    <input
+                      id="nameField"
+                      name="nameField"
+                      type="text"
+                      class="textfield"
+                      value="First and Last Name"
+                      onFocus="clearName();"
+                      onBlur="resetName();"
+                    />
+
+                    <label for="phoneField">Phone:</label>
+                    <input
+                      id="phoneField"
+                      name="phoneField"
+                      type="text"
+                      class="textfield"
+                      value="example: 212-123-1234"
+                      onFocus="clearPhone();"
+                      onBlur="resetPhone();"
+                    />
+
+                    <label for="emailField">E-Mail:</label>
+                    <input
+                      id="emailField"
+                      name="emailField"
+                      type="text"
+                      class="textfield"
+                      value="insert your email"
+                      onFocus="clearEmail();"
+                      onBlur="resetEmail();"
+                    />
+
+                    <input
+                      id="submit"
+                      type="submit"
+                      name="submit"
+                      value="Sign Me Up!"
+                    />
+                  </fieldset>
+                </form>
+              </div>
+            </main>
+          </div>
+        </div>
+        <!--form field end-->
+      </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- Footer creds to: https://bootsnipp.com/snippets/xbAlG-->
+    <section class="footer-section">
+      <div class="container">
+        <div class="row footer-section-row">
+          <div class="col-md-4">
+            <div class="address">
+              <div class="left-icon">
+                <img
+                  class="infologo"
+                  src="https://pnggrid.com/wp-content/uploads/2021/07/Google-Map-Logo-Transparent.png"
+                />
+              </div>
+              <div class="right-text">
+                <h3>Address</h3>
+                <p>4300 Avenue of the Republic Philadelphia, PA 19131</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="address">
+              <div class="left-icon">
+                <img
+                  class="infologo"
+                  src="https://pnggrid.com/wp-content/uploads/2021/04/Gmail-Transparent-Logo-1024x768.png"
+                />
+              </div>
+              <div class="right-text">
+                <h3>Email</h3>
+                <p>info@katieskomets.org</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="address">
+              <div class="left-icon">
+                <img
+                  class="infologo"
+                  src="http://assets.stickpng.com/thumbs/5a4525bd546ddca7e1fcbc83.png"
+                />
+              </div>
+              <div class="right-text">
+                <h3>Phone</h3>
+                <p>215-685-0160</p>
+                <p>Team Representative: 267-688-7230</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <h3 class="footer-title">
+              <span class="footer-title-text">Quick Link</span
+              ><span class="footer-title-underline"></span>
+            </h3>
+            <ul class="quick-link-list">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="team.html">Team</a></li>
+              <li><a href="schedule.html">Schedule</a></li>
+              <li><a href="media.html">Media</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="sponsors.html">Sponsors</a></li>
+              <li><a href="NWBA.html">NWBA</a></li>
+              <li><a href="CAF.html">CAf</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h3 class="footer-title title-transparent">Quick Link</h3>
+            <ul class="quick-link-list">
+              <li><a href="https://carouselhousepa.com/">Carousel House</a></li>
+              <li>
+                <a href="http://www.katiekirlinfund.org/">Katie Kirlin Fund</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h3 class="footer-title title-transparent">Quick Link</h3>
+            <ul class="quick-link-list">
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h3 class="footer-title">
+              <span class="footer-title-text">Get Updates</span
+              ><span class="footer-title-underline"></span>
+            </h3>
+            <p class="newsletter">Signup to Our Newsletter.</p>
+            <form action="">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control form-control-new"
+                  id="usr"
+                  name="username"
+                  placeholder="Enter Your Mail Id"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary subscribe">
+                Subscribe
+              </button>
+            </form>
+            <div id="social">
+              <a class="social" href="#"
+                ><img
+                  class="social"
+                  src="https://www.edigitalagency.com.au/wp-content/uploads/instagram-logo-svg-vector-for-print.svg"
+                  alt="instagram logo"
+              /></a>
+              <a class="social" href="#"
+                ><img
+                  class="social"
+                  src="https://2vlxmp3sk434ulstw3ckqlly-wpengine.netdna-ssl.com/wp-content/uploads/2018/06/facebook-transparent-logo-png-0-270x270.png"
+                  alt="facebook logo"
+              /></a>
+              <a class="social" href="#"
+                ><img
+                  class="social"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/YouTube_social_white_squircle.svg/1200px-YouTube_social_white_squircle.svg.png"
+                  alt="facebook logo"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
